@@ -30,11 +30,6 @@ function baseFactory(baseURL: string) {
       Accept: "application/json",
       "Content-Type": "application/json",
     },
-    proxy: {
-      protocol: Config.PROXI_PROTOCOL,
-      host: Config.PROXI_HOST,
-      port: Config.PROXI_PORT,
-    },
   });
 }
 
