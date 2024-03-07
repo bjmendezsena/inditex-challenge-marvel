@@ -1,34 +1,42 @@
 import { createContext, PropsWithChildren, useState, useContext } from "react";
-
+import { Character } from "@/types";
+import _ from "lodash";
 interface FavouritesContextType {
-  favourites: number[];
-  addFavourite: (id: number) => void;
-  removeFavourite: (id: number) => void;
-  checkIsFavourite: (id: number) => boolean;
-  toggleFavourite: (id: number) => void;
+  favourites: Character[];
+  addFavourite: (character: Character) => void;
+  removeFavourite: (character: Character) => void;
+  checkIsFavourite: (character: Character) => boolean;
+  toggleFavourite: (character: Character) => void;
+  setShowFavourites: (value: boolean) => void;
+  showFavourites: boolean;
 }
 
 const FavouritesContext = createContext({} as FavouritesContextType);
 
 export const FavouritesContextProvider = ({ children }: PropsWithChildren) => {
-  const [favourites, setFavourites] = useState<number[]>([]);
+  const [favourites, setFavourites] = useState<Character[]>([]);
 
-  const addFavourite = (id: number) => {
-    setFavourites([...favourites, id]);
+  const [showFavourites, setShowFavourites] = useState(false);
+
+  const addFavourite = (character: Character) => {
+    setFavourites([...favourites, character]);
   };
 
-  const removeFavourite = (id: number) => {
-    setFavourites(favourites.filter((favourite) => favourite !== id));
+  const removeFavourite = (character: Character) => {
+    setFavourites(
+      favourites.filter((favourite) => !_.isEqual(favourite, character))
+    );
   };
 
-  const checkIsFavourite = (id: number) => favourites.includes(id);
+  const checkIsFavourite = (character: Character) =>
+    favourites.includes(character);
 
-  const toggleFavourite = (id: number) => {
-    if (checkIsFavourite(id)) {
-      return removeFavourite(id);
+  const toggleFavourite = (character: Character) => {
+    if (checkIsFavourite(character)) {
+      return removeFavourite(character);
     }
 
-    addFavourite(id);
+    addFavourite(character);
   };
 
   return (
@@ -39,6 +47,8 @@ export const FavouritesContextProvider = ({ children }: PropsWithChildren) => {
         removeFavourite,
         checkIsFavourite,
         toggleFavourite,
+        showFavourites,
+        setShowFavourites,
       }}
     >
       {children}

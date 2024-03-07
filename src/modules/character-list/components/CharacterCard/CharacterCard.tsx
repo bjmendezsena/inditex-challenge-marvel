@@ -20,7 +20,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
   const handleClickFavButton = (e: React.MouseEvent) => {
     e.stopPropagation();
     e.preventDefault();
-    toggleFavourite(character.id);
+    toggleFavourite(character);
   };
 
   return (
@@ -38,7 +38,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
         <p>{character.name}</p>
         <FavButton
           onClick={handleClickFavButton}
-          isActive={checkIsFavourite(character.id)}
+          isActive={checkIsFavourite(character)}
           size='md'
         />
       </div>

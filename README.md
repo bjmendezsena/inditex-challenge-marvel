@@ -13,6 +13,7 @@
 - clsx
 - crypto-js
 - dayjs
+- lodash
 
 
 ## Installation 💾

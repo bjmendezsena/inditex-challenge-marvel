@@ -19,22 +19,28 @@ export default function Page({ params }: Props) {
     return parseInt(characterId);
   }, [characterId]);
 
-  const { data, isLoading } = useCharacter({
+  const { data: character, isLoading } = useCharacter({
     characterId: numberCharacterId,
   });
   const { checkIsFavourite, toggleFavourite } = useFavourites();
   const handleClickFavourite = () => {
-    toggleFavourite(numberCharacterId);
+    if (!character) return;
+    toggleFavourite(character);
   };
 
-  const isFavourite = checkIsFavourite(numberCharacterId);
+  const isFavourite = useMemo(() => {
+    if (!character) return false;
+    return checkIsFavourite(character);
+  }, [character]);
 
   return (
     <div className='flex flex-col w-full overflow-x-hidden'>
       <CharacterHeaderPage
-        imageUrl={data?.thumbnail.path + "." + data?.thumbnail.extension}
-        name={data?.name || ""}
-        description={data?.description || ""}
+        imageUrl={
+          character?.thumbnail.path + "." + character?.thumbnail.extension
+        }
+        name={character?.name || ""}
+        description={character?.description || ""}
         isFavorite={isFavourite}
         isLoading={isLoading}
         onFavoriteClick={handleClickFavourite}
