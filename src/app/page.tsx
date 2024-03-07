@@ -37,7 +37,7 @@ export default function CharacterListPage() {
     });
   };
 
-  const { results = [], count } = data || {};
+  const { results = [], count = 0 } = data || {};
 
   const countsResults = useMemo(() => {
     if (showFavourites && favourites.length) {
