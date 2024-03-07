@@ -34,6 +34,13 @@ npm install
 ```
 
 
+Run in dev environment:
+
+```bash
+npm run dev
+```
+
+
 Run with docker:
 
 ```bash
