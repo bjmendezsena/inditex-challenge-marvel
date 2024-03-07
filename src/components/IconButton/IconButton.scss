@@ -1,0 +1,24 @@
+@import "@/styles/variables.scss";
+
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease;
+  width: min-content;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 6px;
+  color: $secondary-color;
+  &:hover {
+    background-color: $muted-color;
+  }
+}

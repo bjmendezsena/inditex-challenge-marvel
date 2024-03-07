@@ -1,0 +1,25 @@
+$sm: 24px;
+$md: 32px;
+$lg: 48px;
+$xl: 64px;
+
+.icon {
+  &__size {
+    &--sm {
+      width: $sm;
+      height: $sm;
+    }
+    &--md {
+      width: $md;
+      height: $md;
+    }
+    &--lg {
+      width: $lg;
+      height: $lg;
+    }
+    &--xl {
+      width: $xl;
+      height: $xl;
+    }
+  }
+}

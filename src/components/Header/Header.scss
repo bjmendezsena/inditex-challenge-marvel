@@ -1,0 +1,24 @@
+@import "@/styles/variables.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 48px;
+  height: $header-height;
+  background-color: $secondary-color;
+
+  @media screen and (max-width: $mobile-width) {
+    padding: 0 18px;
+  }
+
+  &__favourite {
+    color: $white-color;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    button {
+      cursor: default !important;
+    }
+  }
+}

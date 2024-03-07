@@ -1,0 +1,43 @@
+@import "@/styles/variables.scss";
+
+$width: 100%;
+
+.container {
+  position: relative;
+  width: $width;
+  display: flex;
+  padding: 5px;
+  &__input {
+    background: none;
+    color: $black-color;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: $width;
+    border: none;
+    border-radius: 0;
+    height: 20px;
+
+    &:focus {
+      outline: none;
+    }
+    &:focus ~ label,
+    &:valid ~ label {
+      top: -14px;
+      font-size: 12px;
+    }
+    &:focus ~ .container__bar {
+      width: $width;
+      border-bottom: 2px solid $black-color;
+    }
+  }
+
+  &__bar {
+    bottom: 0;
+    position: absolute;
+    transition: border-color 0.2s;
+    display: block;
+    width: $width;
+    border-bottom: 2px solid $muted-color;
+  }
+}

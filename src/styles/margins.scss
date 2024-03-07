@@ -1,0 +1,86 @@
+.m {
+    &-2 {
+      margin: 2px;
+    }
+
+    &-4 {
+      margin: 4px;
+    }
+
+    &-8 {
+      margin: 8px;
+    }
+
+    &-16 {
+      margin: 16px;
+    }
+
+    &-32 {
+      margin: 32px;
+    }
+
+    &x {
+      &-2 {
+        margin: 0 2px;
+      }
+
+      &-4 {
+        margin: 0 4px;
+      }
+
+      &-8 {
+        margin: 0 8px;
+      }
+
+      &-16 {
+        margin: 0 16px;
+      }
+
+      &-32 {
+        margin: 0 32px;
+      }
+    }
+    &y {
+      &-2 {
+        margin: 2px 0;
+      }
+
+      &-4 {
+        margin: 4px 0;
+      }
+
+      &-8 {
+        margin: 8px 0;
+      }
+
+      &-16 {
+        margin: 16px 0;
+      }
+
+      &-32 {
+        margin: 32px 0;
+      }
+    }
+
+    &t {
+      &-2 {
+        margin-top: 2px;
+      }
+
+      &-4 {
+        margin-top: 4px;
+      }
+
+      &-8 {
+        margin-top: 8px;
+      }
+
+      &-16 {
+        margin-top: 16px;
+      }
+
+      &-32 {
+        margin-top: 32px;
+      }
+    }
+  }
