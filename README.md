@@ -1,5 +1,7 @@
 # Inditex-Marvel Challenge
 
+**[Live demo](https://inditex-challenge-marvel-fho537k98-bjmendezsena.vercel.app/)**
+
 ## Architecture ⚙️
 
 The chosen architecture is
@@ -153,7 +155,11 @@ and not
   libraries, improving performance and development efficiency in projects
   dealing with dates.
 
-- **[lodash:](https://lodash.com/docs/)** is a JavaScript utility library that provides convenient functions for common programming tasks, including manipulating arrays, objects, and strings. It enhances code readability and efficiency by simplifying complex operations, reducing the need for verbose and repetitive code in projects.
+- **[lodash:](https://lodash.com/docs/)** is a JavaScript utility library that
+  provides convenient functions for common programming tasks, including
+  manipulating arrays, objects, and strings. It enhances code readability and
+  efficiency by simplifying complex operations, reducing the need for verbose
+  and repetitive code in projects.
 
 ## Installation 💾
 

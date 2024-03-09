@@ -1,6 +1,6 @@
-@import "@/styles/margins.scss";
-@import "@/styles/shared.scss";
-@import "@/styles/variables.scss";
+@import '@/styles/margins.scss';
+@import '@/styles/shared.scss';
+@import '@/styles/variables.scss';
 
 $card-width: 180px;
 $card-height: 268px;
@@ -19,10 +19,13 @@ $card-container-height: calc($card-height + 130px);
       line-height: 37.5px;
     }
     &__body {
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-columns: repeat(auto-fill, $card-width);
+      grid-gap: 10px;
+      overflow: auto;
       height: $card-container-height;
       overflow-x: auto;
-      gap: 10px;
-      display: flex;
       &::-webkit-scrollbar {
         height: 4px;
       }
@@ -80,12 +83,12 @@ $card-container-height: calc($card-height + 130px);
 
           &__title {
             @extend .comic__list__body__item__skeleton;
-            width: 200px;
+            width: 150px;
             height: 10px;
           }
           &__subtitle {
             @extend .comic__list__body__item__skeleton;
-            width: 100px;
+            width: 25px;
             height: 10px;
           }
         }

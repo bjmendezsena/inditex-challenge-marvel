@@ -5,9 +5,7 @@ import './ComicsSection.scss';
 export interface ComicsSectionProps {
   characterId: number;
 }
-export const ComicsSection = ({
-  characterId,
-}: ComicsSectionProps) => {
+export const ComicsSection = ({ characterId }: ComicsSectionProps) => {
   const { data, isLoading } = useCharacterComics({
     characterId,
   });
