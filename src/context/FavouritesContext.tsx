@@ -1,6 +1,12 @@
-import { createContext, PropsWithChildren, useState, useContext } from 'react';
+import {
+  createContext,
+  PropsWithChildren,
+  useState,
+  useContext,
+  useCallback,
+} from 'react';
 import { Character } from '@/types';
-import _ from 'lodash';
+import _isEqual from 'lodash/isEqual';
 interface FavouritesContextType {
   favourites: Character[];
   addFavourite: (character: Character) => void;
@@ -24,12 +30,15 @@ export const FavouritesContextProvider = ({ children }: PropsWithChildren) => {
 
   const removeFavourite = (character: Character) => {
     setFavourites(
-      favourites.filter(favourite => !_.isEqual(favourite, character))
+      favourites.filter(favourite => !_isEqual(favourite, character))
     );
   };
 
-  const checkIsFavourite = (character: Character) =>
-    favourites.includes(character);
+  const checkIsFavourite = useCallback(
+    (character: Character) =>
+      favourites.some(favourite => _isEqual(favourite, character)),
+    [favourites]
+  );
 
   const toggleFavourite = (character: Character) => {
     if (checkIsFavourite(character)) {

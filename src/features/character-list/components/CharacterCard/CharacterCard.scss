@@ -1,8 +1,13 @@
-@import "@/styles/variables.scss";
+@import '@/styles/variables.scss';
+
+$card-width: 188px;
+$card-height: 245px;
+$card-mobile-width: 45vw;
+$card-mobile-height: 215px;
 
 .card {
-  width: 173px;
-  height: 246px;
+  width: $card-width;
+  height: $card-height;
   display: flex;
   flex-direction: column;
   clip-path: polygon(100% 0, 100% 90%, 90% 100%, 0 100%, 0 0);
@@ -10,6 +15,8 @@
 
   @media screen and (max-width: $mobile-width) {
     flex: 1 133px;
+    width: $card-mobile-width;
+    height: $card-mobile-height;
   }
 
   &:hover {

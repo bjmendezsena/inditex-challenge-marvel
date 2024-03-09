@@ -29,11 +29,10 @@ export default function Page({ params }: Props) {
     toggleFavourite(character);
   };
 
-
   const isFavourite = useMemo(() => {
     if (!character) return false;
     return checkIsFavourite(character);
-  }, [character]);
+  }, [character, checkIsFavourite]);
 
   return (
     <div className="flex flex-col w-full overflow-x-hidden">
@@ -47,9 +46,7 @@ export default function Page({ params }: Props) {
         isLoading={isLoading}
         onFavoriteClick={handleClickFavourite}
       />
-      <ComicsSection
-        characterId={numberCharacterId}
-      />
+      <ComicsSection characterId={numberCharacterId} />
     </div>
   );
 }

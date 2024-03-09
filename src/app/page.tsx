@@ -11,7 +11,7 @@ import {
 export default function CharacterListPage() {
   const [searchValue, setSearchValue] = useState<string>();
 
-  const { showFavourites, favourites } = useFavourites();
+  const { showFavourites, favourites, setShowFavourites } = useFavourites();
 
   const [characterFilters, setCharacterFilters] =
     useState<GetCharactersFilters>();
@@ -32,6 +32,8 @@ export default function CharacterListPage() {
   const handleClickFilter = () => {
     if (!searchValue) return;
 
+    setShowFavourites(false);
+
     setCharacterFilters({
       nameStartsWith: searchValue,
     });
@@ -40,14 +42,14 @@ export default function CharacterListPage() {
   const { results = [], count = 0 } = data || {};
 
   const countsResults = useMemo(() => {
-    if (showFavourites && favourites.length) {
+    if (showFavourites) {
       return favourites.length;
     }
     return count;
   }, [count, favourites, showFavourites]);
 
   return (
-    <div className="flex flex-col w-full gap-16 px-8">
+    <div className="flex flex-col gap-16 px-16 align-stretch">
       <div className="flex mt-32">
         <Input
           onChange={handleSearch}
