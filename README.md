@@ -4,10 +4,11 @@
 
 - Next.js(React)
 - TypeScript
-- NextAuth
 - Sass
 - Tanstack Query
 - Jest
+- Vitest
+- @testing-library/react
 - Msw
 - axios
 - clsx

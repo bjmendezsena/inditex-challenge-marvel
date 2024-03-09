@@ -1,4 +1,70 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<FavButton /> > should render with isActive 1`] = `
+<DocumentFragment>
+  <button
+    class="FavButton FavButton--active"
+  >
+    <svg
+      class="icon icon__size--md"
+      fill="none"
+      viewBox="0 0 56 38"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<FavButton /> > should render without crashing 1`] = `
+<DocumentFragment>
+  <button
+    class="FavButton FavButton--active"
+  >
+    <svg
+      class="icon icon__size--md"
+      fill="none"
+      viewBox="0 0 56 38"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<FavButton /> > should render without isActive 1`] = `
+<DocumentFragment>
+  <button
+    class="FavButton"
+  >
+    <svg
+      class="icon icon__size--md"
+      fill="none"
+      viewBox="0 0 56 38"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;
 
 exports[`<FavButton /> should render with isActive 1`] = `
 <DocumentFragment>

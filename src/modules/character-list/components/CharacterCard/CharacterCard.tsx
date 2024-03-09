@@ -31,6 +31,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
           src={imageUrl}
           alt={character.name}
           fill
+          unoptimized
         />
       </div>
       <div className='card__divider' />

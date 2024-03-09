@@ -20,7 +20,7 @@ export const ComicsSection = ({
       <div className='comic__list__body'>
         {isLoading
           ? Array.from({ length: 10 }).map((_, index) => (
-              <ComicSkeleton key={index} />
+              <ComicSkeleton testId={`comic-skeleton-${index}`} key={index} />
             ))
           : results?.map((comic) => <Comic comic={comic} key={comic.id} />)}
       </div>

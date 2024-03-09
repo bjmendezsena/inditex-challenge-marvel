@@ -1,0 +1,182 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<CharacterListPage /> > should render with loading without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full gap-16 px-8"
+  >
+    <div
+      class="flex mt-32"
+    >
+      <div
+        class="container"
+      >
+        <button
+          class="iconButton"
+        >
+          <svg
+            class="icon icon__size--sm"
+            fill="none"
+            viewBox="0 0 13 13"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.906 11.052c.117.117.117.305 0 .399l-.539.539c-.094.117-.281.117-.398 0L8.133 9.154a.378.378 0 01-.07-.211v-.305A4.935 4.935 0 014.874 9.81 4.871 4.871 0 010 4.935C0 2.263 2.18.06 4.875.06 7.547.06 9.75 2.263 9.75 4.935a4.908 4.908 0 01-1.195 3.188h.304c.07 0 .141.046.211.093l2.836 2.836zM4.875 8.685a3.746 3.746 0 003.75-3.75 3.761 3.761 0 00-3.75-3.75 3.746 3.746 0 00-3.75 3.75 3.731 3.731 0 003.75 3.75z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <input
+          class="container__input"
+          placeholder="Search"
+          value=""
+        />
+        <div
+          class="container__bar"
+        />
+      </div>
+    </div>
+    <span>
+      Loading...
+    </span>
+    <div
+      class="character-list__container"
+    >
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+      <div
+        class="card-skeleton"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<CharacterListPage /> > should render without loading, with data and without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full gap-16 px-8"
+  >
+    <div
+      class="flex mt-32"
+    >
+      <div
+        class="container"
+      >
+        <button
+          class="iconButton"
+        >
+          <svg
+            class="icon icon__size--sm"
+            fill="none"
+            viewBox="0 0 13 13"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.906 11.052c.117.117.117.305 0 .399l-.539.539c-.094.117-.281.117-.398 0L8.133 9.154a.378.378 0 01-.07-.211v-.305A4.935 4.935 0 014.874 9.81 4.871 4.871 0 010 4.935C0 2.263 2.18.06 4.875.06 7.547.06 9.75 2.263 9.75 4.935a4.908 4.908 0 01-1.195 3.188h.304c.07 0 .141.046.211.093l2.836 2.836zM4.875 8.685a3.746 3.746 0 003.75-3.75 3.761 3.761 0 00-3.75-3.75 3.746 3.746 0 00-3.75 3.75 3.731 3.731 0 003.75 3.75z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <input
+          class="container__input"
+          placeholder="Search"
+          value=""
+        />
+        <div
+          class="container__bar"
+        />
+      </div>
+    </div>
+    <span>
+      1 RESULTS
+    </span>
+    <div
+      class="character-list__container"
+    >
+      <div
+        class="card__image"
+      >
+        <img
+          alt="3-D Man"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+      <div
+        class="card__divider"
+      />
+      <div
+        class="card__footer"
+      >
+        <p>
+          3-D Man
+        </p>
+        <button
+          class="FavButton"
+        >
+          <svg
+            class="icon icon__size--md"
+            fill="none"
+            viewBox="0 0 56 38"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

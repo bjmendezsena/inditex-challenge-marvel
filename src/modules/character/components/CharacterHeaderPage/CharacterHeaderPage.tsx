@@ -29,6 +29,7 @@ export const CharacterHeaderPage = ({
             alt={name}
             priority
             fill
+            unoptimized
           />
         </div>
         <div className='characterHeaderPage__content__info'>
@@ -38,6 +39,7 @@ export const CharacterHeaderPage = ({
             onClick={onFavoriteClick}
             className='characterHeaderPage__content__info__fav'
           />
+
           <p className='characterHeaderPage__content__info_name'>{name}</p>
           <p className='characterHeaderPage__content__info__description'>
             {description}

@@ -5,7 +5,11 @@ import { FavButton } from "@/components";
 import { useFavourites } from "@/context";
 import "./Header.scss";
 export const Header = () => {
-  const { favourites, setShowFavourites, showFavourites } = useFavourites();
+  const {
+    favourites = [],
+    setShowFavourites,
+    showFavourites,
+  } = useFavourites();
 
   const handleShowFavourites = () => {
     if (showFavourites || !favourites.length) return;

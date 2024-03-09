@@ -1,0 +1,3607 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Page /> > Should render with loading without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full overflow-x-hidden"
+  >
+    <div
+      class="characterHeaderPage"
+    >
+      <div
+        class="characterHeaderPage__content"
+      >
+        <div
+          class="characterHeaderPage__content__image"
+        >
+          <div
+            class="load"
+          >
+            <div
+              class="load__icon-wrap"
+            >
+              <svg
+                class="load__icon"
+              >
+                <path
+                  d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <img
+            alt=""
+            class="display-none"
+            data-nimg="fill"
+            decoding="async"
+            fetchpriority="high"
+            src="undefined.undefined"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <div
+          class="characterHeaderPage__content__info"
+        >
+          <button
+            class="FavButton characterHeaderPage__content__info__fav"
+          >
+            <svg
+              class="icon icon__size--lg"
+              fill="none"
+              viewBox="0 0 56 38"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="characterHeaderPage__content__info_name"
+          />
+          <p
+            class="characterHeaderPage__content__info__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="comic__list"
+    >
+      <span
+        class="comic__list__title"
+      >
+        COMICS
+      </span>
+      <div
+        class="comic__list__body"
+      >
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-0"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-1"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-2"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-3"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-4"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-5"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-6"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-7"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-8"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-8"
+          data-testid="comic-skeleton-9"
+        >
+          <div
+            class="comic__list__body__item__skeleton__container"
+          />
+          <div
+            class="comic__list__body__item__skeleton__title"
+          />
+          <div
+            class="comic__list__body__item__skeleton__subtitle"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Page /> > Should render without loading, with character data and without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full overflow-x-hidden"
+  >
+    <div
+      class="characterHeaderPage"
+    >
+      <div
+        class="characterHeaderPage__content"
+      >
+        <div
+          class="characterHeaderPage__content__image"
+        >
+          <div
+            class="load"
+          >
+            <div
+              class="load__icon-wrap"
+            >
+              <svg
+                class="load__icon"
+              >
+                <path
+                  d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <img
+            alt="3-D Man"
+            class="display-none"
+            data-nimg="fill"
+            decoding="async"
+            fetchpriority="high"
+            src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <div
+          class="characterHeaderPage__content__info"
+        >
+          <button
+            class="FavButton characterHeaderPage__content__info__fav"
+          >
+            <svg
+              class="icon icon__size--lg"
+              fill="none"
+              viewBox="0 0 56 38"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="characterHeaderPage__content__info_name"
+          >
+            3-D Man
+          </p>
+          <p
+            class="characterHeaderPage__content__info__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="comic__list"
+    >
+      <span
+        class="comic__list__title"
+      >
+        COMICS
+      </span>
+      <div
+        class="comic__list__body"
+      >
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #19"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #19
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #17"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #17
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #16"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #16
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #15"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #15
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Deadpool (1997) #44"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Deadpool (1997) #44
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2000
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #37"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #37
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #36"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #36
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #35"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #35
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Page /> > Should render without loading, with character data and without crashing 2`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full overflow-x-hidden"
+  >
+    <div
+      class="characterHeaderPage"
+    >
+      <div
+        class="characterHeaderPage__content"
+      >
+        <div
+          class="characterHeaderPage__content__image"
+        >
+          <div
+            class="load"
+          >
+            <div
+              class="load__icon-wrap"
+            >
+              <svg
+                class="load__icon"
+              >
+                <path
+                  d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <img
+            alt="3-D Man"
+            class="display-none"
+            data-nimg="fill"
+            decoding="async"
+            fetchpriority="high"
+            src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <div
+          class="characterHeaderPage__content__info"
+        >
+          <button
+            class="FavButton characterHeaderPage__content__info__fav"
+          >
+            <svg
+              class="icon icon__size--lg"
+              fill="none"
+              viewBox="0 0 56 38"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="characterHeaderPage__content__info_name"
+          >
+            3-D Man
+          </p>
+          <p
+            class="characterHeaderPage__content__info__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="comic__list"
+    >
+      <span
+        class="comic__list__title"
+      >
+        COMICS
+      </span>
+      <div
+        class="comic__list__body"
+      >
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #19"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #19
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #17"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #17
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #16"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #16
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #15"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #15
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Deadpool (1997) #44"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Deadpool (1997) #44
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2000
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #37"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #37
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #36"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #36
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #35"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #35
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Page /> > Should render without loading, with comic data and without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full overflow-x-hidden"
+  >
+    <div
+      class="characterHeaderPage"
+    >
+      <div
+        class="characterHeaderPage__content"
+      >
+        <div
+          class="characterHeaderPage__content__image"
+        >
+          <div
+            class="load"
+          >
+            <div
+              class="load__icon-wrap"
+            >
+              <svg
+                class="load__icon"
+              >
+                <path
+                  d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <img
+            alt="3-D Man"
+            class="display-none"
+            data-nimg="fill"
+            decoding="async"
+            fetchpriority="high"
+            src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <div
+          class="characterHeaderPage__content__info"
+        >
+          <button
+            class="FavButton characterHeaderPage__content__info__fav"
+          >
+            <svg
+              class="icon icon__size--lg"
+              fill="none"
+              viewBox="0 0 56 38"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="characterHeaderPage__content__info_name"
+          >
+            3-D Man
+          </p>
+          <p
+            class="characterHeaderPage__content__info__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="comic__list"
+    >
+      <span
+        class="comic__list__title"
+      >
+        COMICS
+      </span>
+      <div
+        class="comic__list__body"
+      >
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #19"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #19
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #17"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #17
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #16"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #16
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #15"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #15
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Deadpool (1997) #44"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Deadpool (1997) #44
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2000
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #37"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #37
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #36"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #36
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #35"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #35
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Page /> > Should render without loading, with data and without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full overflow-x-hidden"
+  >
+    <div
+      class="characterHeaderPage"
+    >
+      <div
+        class="characterHeaderPage__content"
+      >
+        <div
+          class="characterHeaderPage__content__image"
+        >
+          <div
+            class="load"
+          >
+            <div
+              class="load__icon-wrap"
+            >
+              <svg
+                class="load__icon"
+              >
+                <path
+                  d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <img
+            alt="3-D Man"
+            class="display-none"
+            data-nimg="fill"
+            decoding="async"
+            fetchpriority="high"
+            src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <div
+          class="characterHeaderPage__content__info"
+        >
+          <button
+            class="FavButton characterHeaderPage__content__info__fav"
+          >
+            <svg
+              class="icon icon__size--lg"
+              fill="none"
+              viewBox="0 0 56 38"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="characterHeaderPage__content__info_name"
+          >
+            3-D Man
+          </p>
+          <p
+            class="characterHeaderPage__content__info__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="comic__list"
+    >
+      <span
+        class="comic__list__title"
+      >
+        COMICS
+      </span>
+      <div
+        class="comic__list__body"
+      >
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #19"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #19
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #17"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #17
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #16"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #16
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #15"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #15
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Deadpool (1997) #44"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Deadpool (1997) #44
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2000
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #37"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #37
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #36"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #36
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #35"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #35
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Page /> > Should render without loading, with data and without crashing 2`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-full overflow-x-hidden"
+  >
+    <div
+      class="characterHeaderPage"
+    >
+      <div
+        class="characterHeaderPage__content"
+      >
+        <div
+          class="characterHeaderPage__content__image"
+        >
+          <div
+            class="load"
+          >
+            <div
+              class="load__icon-wrap"
+            >
+              <svg
+                class="load__icon"
+              >
+                <path
+                  d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <img
+            alt="3-D Man"
+            class="display-none"
+            data-nimg="fill"
+            decoding="async"
+            fetchpriority="high"
+            src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <div
+          class="characterHeaderPage__content__info"
+        >
+          <button
+            class="FavButton characterHeaderPage__content__info__fav"
+          >
+            <svg
+              class="icon icon__size--lg"
+              fill="none"
+              viewBox="0 0 56 38"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <p
+            class="characterHeaderPage__content__info_name"
+          >
+            3-D Man
+          </p>
+          <p
+            class="characterHeaderPage__content__info__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="comic__list"
+    >
+      <span
+        class="comic__list__title"
+      >
+        COMICS
+      </span>
+      <div
+        class="comic__list__body"
+      >
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #19"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #19
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #18"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #18
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #17"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #17
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #16"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #16
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #15"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #15
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2008
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Deadpool (1997) #44"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Deadpool (1997) #44
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              2000
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #37"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #37
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #36"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #36
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+        <div
+          class="comic__list__body__item"
+        >
+          <div
+            class="comic__list__body__item__image"
+          >
+            <div
+              class="load"
+            >
+              <div
+                class="load__icon-wrap"
+              >
+                <svg
+                  class="load__icon"
+                >
+                  <path
+                    d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <img
+              alt="Marvel Premiere (1972) #35"
+              class="display-none"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg"
+              srcset="http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 640w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 750w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 828w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1080w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1200w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 1920w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 2048w, http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005.jpg 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+          <div
+            class="comic__list__body__item__footer"
+          >
+            <span
+              class="comic__list__body__item__footer__title"
+            >
+              Marvel Premiere (1972) #35
+            </span>
+            <span
+              class="comic__list__body__item__footer__subtitle"
+            >
+              1977
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
