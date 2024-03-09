@@ -26,6 +26,7 @@ $card-container-height: calc($card-height + 130px);
       overflow: auto;
       height: $card-container-height;
       overflow-x: auto;
+      padding-right: 30px;
       &::-webkit-scrollbar {
         height: 4px;
       }
