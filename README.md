@@ -2,10 +2,12 @@
 
 ## Architecture ⚙️
 
-The chosen architecture is **[bullet proof react.](https://github.com/alan2207/bulletproof-react)**
+The chosen architecture is
+**[bullet proof react.](https://github.com/alan2207/bulletproof-react)**
 
-It gives us the possibility of decoupling the different layers of the application and encapsulating both the logic and the UI of each module, facilitating scalability.
-
+It gives us the possibility of decoupling the different layers of the
+application and encapsulating both the logic and the UI of each module,
+facilitating scalability.
 
 ## Project structure 🗄️
 
@@ -33,9 +35,14 @@ src
 +-- utils             # shared utility functions
 ```
 
-- ### Features folder
+**- Features folder**
 
-In order to scale the application in the easiest and most maintainable way, most of the code is inside the `features` folder, which contains different feature-based things. Every `feature` folder contains domain specific code for a given feature. This allows to keep functionalities scoped to a feature and not mix its declarations with shared things. This is much easier to maintain than a flat folder structure with many files.
+In order to scale the application in the easiest and most maintainable way, most
+of the code is inside the `features` folder, which contains different
+feature-based things. Every `feature` folder contains domain specific code for a
+given feature. This allows to keep functionalities scoped to a feature and not
+mix its declarations with shared things. This is much easier to maintain than a
+flat folder structure with many files.
 
 A feature have the following structure:
 
@@ -51,17 +58,15 @@ src/features/[feature]
 +-- index.ts    # entry point for the feature, it serves as the public API of the given feature and exports everything that should be used outside the feature
 ```
 
-
-
-Everything from a feature is exported from the `index.ts` file which behaves as the public API of the feature.
-The elements are imported from other functions only using:
+Everything from a feature is exported from the `index.ts` file which behaves as
+the public API of the feature. The elements are imported from other functions
+only using:
 
 `import {FeatureComponent} from "@/features/feature"`
 
 and not
 
 `import {FeatureComponent} from "@/features/feature/components/FeatureComponent`
-
 
 ## Technologies 🔧
 
