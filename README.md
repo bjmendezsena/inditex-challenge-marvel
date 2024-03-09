@@ -52,20 +52,6 @@ given feature. This allows to keep functionalities scoped to a feature and not
 mix its declarations with shared things. This is much easier to maintain than a
 flat folder structure with many files.
 
-A feature have the following structure:
-
-```sh
-src/features/[feature]
-|
-+-- api         # exported API request declarations and api hooks related to a specific feature
-|
-+-- components  # components scoped to a specific feature
-|
-+-- types       # typescript types for TS specific feature domain
-|
-+-- index.ts    # entry point for the feature, it serves as the public API of the given feature and exports everything that should be used outside the feature
-```
-
 Everything from a feature is exported from the `index.ts` file which behaves as
 the public API of the feature. The elements are imported from other functions
 only using:
