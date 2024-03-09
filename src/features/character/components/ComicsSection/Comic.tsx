@@ -2,15 +2,14 @@ import dayjs from 'dayjs';
 import { useMemo } from 'react';
 import { IComic } from '@/features/character/types';
 import { AsyncImage } from '@/components';
+import { buildThumbnailImage } from '@/utils';
 
 export interface IComicProps {
   comic: IComic;
 }
 
 export const Comic = ({ comic }: IComicProps) => {
-  const imgUrl = useMemo(() => {
-    return comic.thumbnail.path + '.' + comic.thumbnail.extension;
-  }, [comic]);
+  const imgUrl = useMemo(() => buildThumbnailImage(comic.thumbnail), [comic]);
 
   const onSaleDate = useMemo(() => {
     const { dates } = comic;

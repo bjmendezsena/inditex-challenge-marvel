@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Character } from '@/types';
 import { FavButton } from '@/components';
 import { useFavourites } from '@/context';
+import { buildThumbnailImage } from '@/utils';
 import './CharacterCard.scss';
 
 export type CharacterCardProps = {
@@ -13,7 +14,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
   const { checkIsFavourite, toggleFavourite } = useFavourites();
 
   const imageUrl = useMemo(
-    () => character.thumbnail.path + '.' + character.thumbnail.extension,
+    () => buildThumbnailImage(character.thumbnail),
     [character]
   );
 
