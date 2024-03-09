@@ -1,0 +1,82 @@
+@import "@/styles/variables.scss";
+@import "@/styles/margins.scss";
+@import "@/styles/shared.scss";
+.characterHeaderPage {
+  display: flex;
+  width: 100%;
+  height: min-content;
+  background-color: $secondary-color;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(100% 0, 100% 93%, 98% 100%, 0 100%, 0 0);
+
+  @media screen and (max-width: $mobile-width) {
+    clip-path: polygon(100% 0, 100% 97%, 95% 100%, 0 100%, 0 0);
+  }
+
+  &__content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    @media screen and (max-width: $tablet-width) {
+      width: 100%;
+    }
+    @media screen and (max-width: $mobile-width) {
+      width: 100%;
+      flex-direction: column;
+      max-width: none;
+    }
+
+    &__image {
+      display: flex;
+      position: relative;
+      width: 278px;
+      height: 278px;
+      & > img {
+        object-fit: contain;
+      }
+
+      @media screen and (max-width: $mobile-width) {
+        height: 350px;
+        width: 100%;
+      }
+    }
+
+    &__info {
+      width: 100%;
+      position: relative;
+      padding: 0 24px;
+      color: $white-color;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &__name {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37.5px;
+
+        &--loading {
+          @include skeleton(70%, 30px);
+          border-radius: 4px;
+        }
+      }
+
+      &__description {
+        font-size: 16px;
+        line-height: 18.75px;
+        font-weight: 400;
+      }
+
+      &__fav {
+        position: absolute;
+        right: 24px;
+        top: 24px;
+      }
+
+      @media screen and (max-width: $mobile-width) {
+        padding: 16px;
+      }
+    }
+  }
+}

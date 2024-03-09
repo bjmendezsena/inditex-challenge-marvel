@@ -1,6 +1,6 @@
-import { createContext, PropsWithChildren, useState, useContext } from "react";
-import { Character } from "@/types";
-import _ from "lodash";
+import { createContext, PropsWithChildren, useState, useContext } from 'react';
+import { Character } from '@/types';
+import _ from 'lodash';
 interface FavouritesContextType {
   favourites: Character[];
   addFavourite: (character: Character) => void;
@@ -24,7 +24,7 @@ export const FavouritesContextProvider = ({ children }: PropsWithChildren) => {
 
   const removeFavourite = (character: Character) => {
     setFavourites(
-      favourites.filter((favourite) => !_.isEqual(favourite, character))
+      favourites.filter(favourite => !_.isEqual(favourite, character))
     );
   };
 

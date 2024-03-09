@@ -1,6 +1,6 @@
-
-import { render } from "@testing-library/react";
-import { FavButton, FavButtonProps } from "./FavButton";
+import _merge from 'lodash/merge';
+import { render } from '@/tests/utils';
+import { FavButton, FavButtonProps } from './FavButton';
 
 const defaultProps: FavButtonProps = {
   isActive: true,
@@ -8,24 +8,25 @@ const defaultProps: FavButtonProps = {
 
 describe(`<${FavButton.name} />`, () => {
   const getComponent = (props: Partial<FavButtonProps> = {}) => {
-    const allProps = { ...defaultProps, ...props };
-    return render(<FavButton {...allProps} />);
+    return render(<FavButton {..._merge(defaultProps, props)} />);
   };
-  it("should render without crashing", () => {
+  it('should render without crashing', () => {
     const { asFragment } = getComponent();
 
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it("should render with isActive", () => {
+  it('should render with isActive', () => {
     const { asFragment } = getComponent({ isActive: true });
 
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it("should render without isActive", () => {
+  it('should render without isActive', () => {
     const { asFragment } = getComponent({ isActive: false });
 
     expect(asFragment()).toMatchSnapshot();
   });
+
+  
 });

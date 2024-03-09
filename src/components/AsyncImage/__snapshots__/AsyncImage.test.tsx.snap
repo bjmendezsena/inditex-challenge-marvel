@@ -1,0 +1,69 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<AsyncImage /> > should render with isLoading 1`] = `
+<DocumentFragment>
+  <div
+    class="load"
+    data-testid="async-image-spinner"
+  >
+    <div
+      class="load__icon-wrap"
+    >
+      <svg
+        class="load__icon"
+      >
+        <path
+          d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+  <img
+    alt="test"
+    class="display-none"
+    data-nimg="1"
+    decoding="async"
+    height="100"
+    loading="lazy"
+    src="/_next/image?url=https%3A%2F%2Fi.annihil.us%2Fu%2Fprod%2Fmarvel%2Fi%2Fmg%2Fc%2Fe0%2F535fecbbb9784&w=256&q=75"
+    srcset="/_next/image?url=https%3A%2F%2Fi.annihil.us%2Fu%2Fprod%2Fmarvel%2Fi%2Fmg%2Fc%2Fe0%2F535fecbbb9784&w=128&q=75 1x, /_next/image?url=https%3A%2F%2Fi.annihil.us%2Fu%2Fprod%2Fmarvel%2Fi%2Fmg%2Fc%2Fe0%2F535fecbbb9784&w=256&q=75 2x"
+    style="color: transparent;"
+    width="100"
+  />
+</DocumentFragment>
+`;
+
+exports[`<AsyncImage /> > should render without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="load"
+    data-testid="async-image-spinner"
+  >
+    <div
+      class="load__icon-wrap"
+    >
+      <svg
+        class="load__icon"
+      >
+        <path
+          d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+  <img
+    alt="test"
+    class="display-none"
+    data-nimg="1"
+    decoding="async"
+    height="100"
+    loading="lazy"
+    src="/_next/image?url=https%3A%2F%2Fi.annihil.us%2Fu%2Fprod%2Fmarvel%2Fi%2Fmg%2Fc%2Fe0%2F535fecbbb9784&w=256&q=75"
+    srcset="/_next/image?url=https%3A%2F%2Fi.annihil.us%2Fu%2Fprod%2Fmarvel%2Fi%2Fmg%2Fc%2Fe0%2F535fecbbb9784&w=128&q=75 1x, /_next/image?url=https%3A%2F%2Fi.annihil.us%2Fu%2Fprod%2Fmarvel%2Fi%2Fmg%2Fc%2Fe0%2F535fecbbb9784&w=256&q=75 2x"
+    style="color: transparent;"
+    width="100"
+  />
+</DocumentFragment>
+`;

@@ -21,15 +21,6 @@ $width: 100%;
     &:focus {
       outline: none;
     }
-    &:focus ~ label,
-    &:valid ~ label {
-      top: -14px;
-      font-size: 12px;
-    }
-    &:focus ~ .container__bar {
-      width: $width;
-      border-bottom: 2px solid $black-color;
-    }
   }
 
   &__bar {
@@ -38,6 +29,6 @@ $width: 100%;
     transition: border-color 0.2s;
     display: block;
     width: $width;
-    border-bottom: 2px solid $muted-color;
+    border-bottom: 2px solid $black-color;
   }
 }

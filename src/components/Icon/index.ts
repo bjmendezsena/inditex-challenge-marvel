@@ -1,3 +1,3 @@
-export * from "./FavIcon";
-export * from "./MagnifyingGlassIcon";
-export * from "./types";
+export * from './FavIcon';
+export * from './MagnifyingGlassIcon';
+export * from './types';

@@ -1,12 +1,12 @@
-"use client";
-import { useState, useMemo } from "react";
-import { Input, MagnifyingGlassIcon, IconButton } from "@/components";
-import { useFavourites } from "@/context";
+'use client';
+import { useState, useMemo } from 'react';
+import { Input, MagnifyingGlassIcon, IconButton } from '@/components';
+import { useFavourites } from '@/context';
 import {
   CharacterList,
   useCharacters,
   GetCharactersFilters,
-} from "@/modules/character-list";
+} from '@/features/character-list';
 
 export default function CharacterListPage() {
   const [searchValue, setSearchValue] = useState<string>();
@@ -47,21 +47,21 @@ export default function CharacterListPage() {
   }, [count, favourites, showFavourites]);
 
   return (
-    <div className='flex flex-col w-full gap-16 px-8'>
-      <div className='flex mt-32'>
+    <div className="flex flex-col w-full gap-16 px-8">
+      <div className="flex mt-32">
         <Input
           onChange={handleSearch}
-          onKeyDown={(e) => e.key === "Enter" && handleClickFilter()}
-          placeholder='Search'
-          value={searchValue || ""}
+          onKeyDown={e => e.key === 'Enter' && handleClickFilter()}
+          placeholder="Search"
+          value={searchValue || ''}
           leftAddon={
             <IconButton onClick={handleClickFilter}>
-              <MagnifyingGlassIcon size='sm' />
+              <MagnifyingGlassIcon size="sm" />
             </IconButton>
           }
         />
       </div>
-      <span>{isLoading ? "Loading..." : `${countsResults} RESULTS`}</span>
+      <span>{isLoading ? 'Loading...' : `${countsResults} RESULTS`}</span>
       <CharacterList
         isLoading={isLoading}
         characters={showFavourites ? favourites : results}

@@ -1,7 +1,7 @@
-import { ComponentProps, useState } from "react";
-import NextImage from "next/image";
-import { Spinner } from "@/components";
-import clsx from "clsx";
+import { ComponentProps, useState } from 'react';
+import NextImage from 'next/image';
+import { Spinner } from '@/components';
+import clsx from 'clsx';
 
 export type AsncImageProps = {
   isLoading?: boolean;
@@ -12,13 +12,16 @@ export const AsyncImage = ({ isLoading, ...props }: AsncImageProps) => {
   const handleLoadedImage = () => {
     setIsLoadingImage(false);
   };
+
   return (
     <>
-      {(isLoadingImage || isLoading) && <Spinner />}
+      {(isLoadingImage || isLoading) && (
+        <Spinner data-testid="async-image-spinner" />
+      )}
       <NextImage
         onLoad={handleLoadedImage}
         className={clsx({
-          "display-none": isLoadingImage,
+          'display-none': isLoadingImage,
         })}
         {...props}
       />

@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FavouritesContext > should render 1`] = `
+<div>
+  <div>
+    0
+  </div>
+  <div>
+    []
+  </div>
+  <button>
+    Add Favourite
+  </button>
+  <button>
+    Remove Favourite
+  </button>
+</div>
+`;

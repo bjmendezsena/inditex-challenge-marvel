@@ -11,10 +11,11 @@ exports[`<Header /> > should render without crashing 1`] = `
       <img
         alt="logo"
         data-nimg="1"
+        data-testid="logo"
         decoding="async"
         height="52"
         loading="lazy"
-        src="/logo.svg"
+        src="/public/static/logo.svg"
         style="color: transparent;"
         width="130"
       />
@@ -24,6 +25,7 @@ exports[`<Header /> > should render without crashing 1`] = `
     >
       <button
         class="FavButton FavButton--active"
+        data-testid="show-favourites"
       >
         <svg
           class="icon icon__size--xl"
@@ -41,49 +43,8 @@ exports[`<Header /> > should render without crashing 1`] = `
       </button>
        
       <p>
-        0
+        1
       </p>
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`<Header /> should render without crashing 1`] = `
-<DocumentFragment>
-  <div
-    class="header"
-  >
-    <img
-      alt="logo"
-      data-nimg="1"
-      decoding="async"
-      height="52"
-      loading="lazy"
-      src="/logo.svg"
-      style="color: transparent;"
-      width="130"
-    />
-    <div
-      class="header__favourite"
-    >
-      <button
-        class="FavButton FavButton--active"
-      >
-        <svg
-          class="icon icon__size--xl"
-          fill="none"
-          viewBox="0 0 56 38"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            clip-rule="evenodd"
-            d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
-            fill="currentColor"
-            fill-rule="evenodd"
-          />
-        </svg>
-      </button>
-       3
     </div>
   </div>
 </DocumentFragment>

@@ -1,11 +1,12 @@
-"use client";
-import { useMemo } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+'use client';
+import { useMemo } from 'react';
 import {
   useCharacter,
   CharacterHeaderPage,
   ComicsSection,
-} from "@/modules/character";
-import { useFavourites } from "@/context";
+} from '@/features/character';
+import { useFavourites } from '@/context';
 type Params = {
   characterId: string;
 };
@@ -28,25 +29,25 @@ export default function Page({ params }: Props) {
     toggleFavourite(character);
   };
 
+
   const isFavourite = useMemo(() => {
     if (!character) return false;
     return checkIsFavourite(character);
   }, [character]);
 
   return (
-    <div className='flex flex-col w-full overflow-x-hidden'>
+    <div className="flex flex-col w-full overflow-x-hidden">
       <CharacterHeaderPage
         imageUrl={
-          character?.thumbnail.path + "." + character?.thumbnail.extension
+          character?.thumbnail.path + '.' + character?.thumbnail.extension
         }
-        name={character?.name || ""}
-        description={character?.description || ""}
+        name={character?.name || ''}
+        description={character?.description || ''}
         isFavorite={isFavourite}
         isLoading={isLoading}
         onFavoriteClick={handleClickFavourite}
       />
       <ComicsSection
-        isLoadingCharacter={isLoading}
         characterId={numberCharacterId}
       />
     </div>

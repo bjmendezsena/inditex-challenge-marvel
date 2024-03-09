@@ -6,18 +6,18 @@ export function formatString(fmt: string, ...args: any[]): string {
       let arg = args.shift();
 
       switch (flag) {
-        case "o":
+        case 'o':
           if (Array.isArray(arg)) {
             arg = JSON.stringify(arg);
           }
           break;
-        case "s":
-          arg = "" + arg;
+        case 's':
+          arg = '' + arg;
           break;
-        case "d":
+        case 'd':
           arg = Number(arg);
           break;
-        case "j":
+        case 'j':
           arg = JSON.stringify(arg);
           break;
         default:
@@ -35,11 +35,11 @@ export function formatString(fmt: string, ...args: any[]): string {
 
   // arguments remain after formatting
   if (args.length) {
-    fmt += " " + args.join(" ");
+    fmt += ' ' + args.join(' ');
   }
 
   // update escaped %% values
-  fmt = fmt.replace(/%{2,2}/g, "%");
+  fmt = fmt.replace(/%{2,2}/g, '%');
 
-  return "" + fmt;
+  return '' + fmt;
 }

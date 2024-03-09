@@ -1,12 +1,12 @@
-import clsx from "clsx";
-import { ComponentProps } from "react";
-import { FavIcon, IconSize } from "@/components";
-import "./FavButton.scss";
+import clsx from 'clsx';
+import { ComponentProps } from 'react';
+import { FavIcon, IconSize } from '@/components';
+import './FavButton.scss';
 
 export type FavButtonProps = {
   isActive?: boolean;
   size?: IconSize;
-} & Omit<ComponentProps<"button">, "children">;
+} & Omit<ComponentProps<'button'>, 'children'>;
 
 export const FavButton = ({
   isActive,
@@ -18,8 +18,8 @@ export const FavButton = ({
     <button
       {...props}
       className={clsx(
-        "FavButton",
-        { "FavButton--active": isActive },
+        'FavButton',
+        { 'FavButton--active': isActive },
         className
       )}
     >

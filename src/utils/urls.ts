@@ -17,23 +17,23 @@ export const urlBuilder: UrlBuilder = (base, routes) => {
     },
   };
 
-  Object.keys(routes).forEach((route) => {
+  Object.keys(routes).forEach(route => {
     const url = routes[route];
-    if (typeof url === "function" && route === "toString") {
+    if (typeof url === 'function' && route === 'toString') {
       // Check if is method
       mappedRoutes.toString = function () {
         return base + routes.toString();
       };
-    } else if (typeof url === "object") {
+    } else if (typeof url === 'object') {
       mappedRoutes[route] = urlBuilder(base, url);
-    } else if (typeof url === "string") {
-      if (url === "") {
+    } else if (typeof url === 'string') {
+      if (url === '') {
         mappedRoutes[route] = mappedRoutes.toString();
       } else {
         const path =
-          url.indexOf("/") === 0
+          url.indexOf('/') === 0
             ? url
-            : [base, url].join("/").replace("//", "/");
+            : [base, url].join('/').replace('//', '/');
         mappedRoutes[route] = path;
       }
     } else {

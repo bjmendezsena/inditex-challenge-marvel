@@ -137,45 +137,50 @@ exports[`<CharacterListPage /> > should render without loading, with data and wi
     <div
       class="character-list__container"
     >
-      <div
-        class="card__image"
+      <a
+        class="card"
+        href="/1011334"
       >
-        <img
-          alt="3-D Man"
-          data-nimg="fill"
-          decoding="async"
-          loading="lazy"
-          src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-        />
-      </div>
-      <div
-        class="card__divider"
-      />
-      <div
-        class="card__footer"
-      >
-        <p>
-          3-D Man
-        </p>
-        <button
-          class="FavButton"
+        <div
+          class="card__image"
         >
-          <svg
-            class="icon icon__size--md"
-            fill="none"
-            viewBox="0 0 56 38"
-            xmlns="http://www.w3.org/2000/svg"
+          <img
+            alt="3-D Man"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <div
+          class="card__divider"
+        />
+        <div
+          class="card__footer"
+        >
+          <p>
+            3-D Man
+          </p>
+          <button
+            class="FavButton"
           >
-            <path
-              clip-rule="evenodd"
-              d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
-              fill="currentColor"
-              fill-rule="evenodd"
-            />
-          </svg>
-        </button>
-      </div>
+            <svg
+              class="icon icon__size--md"
+              fill="none"
+              viewBox="0 0 56 38"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m20 11.803-6-3.641-6 3.641v7.804l12 10.231 12-10.231v-7.803l-6-3.642-6 3.641Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </a>
     </div>
   </div>
 </DocumentFragment>

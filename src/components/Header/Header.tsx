@@ -1,9 +1,10 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { FavButton } from "@/components";
-import { useFavourites } from "@/context";
-import "./Header.scss";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FavButton } from '@/components';
+import { useFavourites } from '@/context';
+import logo from '../../../public/static/logo.svg';
+import './Header.scss';
 export const Header = () => {
   const {
     favourites = [],
@@ -17,20 +18,26 @@ export const Header = () => {
   };
 
   return (
-    <div className='header'>
-      <Link href={"/"}>
+    <div className="header">
+      <Link href={'/'}>
         <Image
+          data-testid="logo"
           onClick={() => {
             setShowFavourites(false);
           }}
-          src='/logo.svg'
-          alt='logo'
+          src={logo}
+          alt="logo"
           width={130}
           height={52}
         />
       </Link>
-      <div className='header__favourite'>
-        <FavButton size='xl' onClick={handleShowFavourites} isActive />{" "}
+      <div className="header__favourite">
+        <FavButton
+          data-testid="show-favourites"
+          size="xl"
+          onClick={handleShowFavourites}
+          isActive
+        />{' '}
         <p>{favourites.length}</p>
       </div>
     </div>

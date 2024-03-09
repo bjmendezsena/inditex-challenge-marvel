@@ -30,34 +30,3 @@ exports[`<Input /> > should render without crashing 1`] = `
   </div>
 </DocumentFragment>
 `;
-
-exports[`<Input /> should render with addon left  without crashing 1`] = `
-<DocumentFragment>
-  <div
-    class="container"
-  >
-    Left
-    <input
-      class="container__input"
-    />
-    <div
-      class="container__bar"
-    />
-  </div>
-</DocumentFragment>
-`;
-
-exports[`<Input /> should render without crashing 1`] = `
-<DocumentFragment>
-  <div
-    class="container"
-  >
-    <input
-      class="container__input"
-    />
-    <div
-      class="container__bar"
-    />
-  </div>
-</DocumentFragment>
-`;
