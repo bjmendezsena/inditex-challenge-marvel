@@ -1,8 +1,8 @@
 <br />
 <div align="center">
-  
+
   <a href="https://www.inditex.com/itxcomweb/es/home">
-    
+
   <img src="https://www.inditex.com/itxcomweb/_next/static/media/logo_big.e3164328.svg" alt="Inditex Logo" width="200" height="80">
   </a>
   <br />
@@ -16,14 +16,14 @@
     Test challenge for inditex based on marvel api.
     <br />
     <br />
-    <strong> 
+    <strong>
       <a href="https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/">View Demo</a>
     </strong>
   </p>
 
-  [![Screen Shot][screenshot]](https://example.com)
-</div>
+[![Screen Shot][screenshot]](https://example.com)
 
+</div>
 
 ## Architecture ⚙️
 
@@ -34,14 +34,14 @@ It gives us the possibility of decoupling the different layers of the
 application and encapsulating both the logic and the UI of each module,
 facilitating scalability.
 
-
 ### Built With 🔧
+
 <div align="center">
 <a href="https://nextjs.org">
-<img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next" width="150" height="80"> 
+<img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next" width="150" height="80">
 </a>
   <a href="https://www.typescriptlang.org/">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxBazpO7O500MliDRCqCJrs_lomB7Dnta8Q&usqp=CAU" alt="Typescript" width="80" height="80"> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxBazpO7O500MliDRCqCJrs_lomB7Dnta8Q&usqp=CAU" alt="Typescript" width="80" height="80">
 </a>
 
 <a href="https://sass-lang.com/">
@@ -60,7 +60,6 @@ facilitating scalability.
 <img src="https://cdn.worldvectorlogo.com/logos/jest-2.svg" alt="Jest" width="80" height="80">
 </a>
 
-
 <a href="https://vitest.dev/">
 <img src="https://vitest.dev/logo-shadow.svg" alt="Vitest" width="80" height="80">
 </a>
@@ -75,7 +74,7 @@ facilitating scalability.
 </div>
 <br />
 
- __Other technologies__:
+**Other technologies**:
 
 - **[clsx](https://www.npmjs.com/package/clsx)**
 
@@ -84,7 +83,6 @@ facilitating scalability.
 - **[dayjs](https://day.js.org/)**
 
 - **[lodash](https://lodash.com/docs/)**
-
 
 ## Project structure 🗄️
 
@@ -122,7 +120,6 @@ src
 +-- utils             # shared utility functions
 ```
 
-
 **- Features folder**
 
 In order to scale the application in the easiest and most maintainable way, most
@@ -141,8 +138,6 @@ only using:
 and not
 
 `import {FeatureComponent} from "@/features/module/components/FeatureComponent`
-
-
 
 ## Installation 💾
 
@@ -193,6 +188,5 @@ pnpm run dev
 ```bash
 docker-compose up -d
 ```
-
 
 [screenshot]: public/static/screenshot.png
