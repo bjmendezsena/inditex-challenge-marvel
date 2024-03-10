@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -15,33 +14,10 @@
       <a href="https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/">View Demo</a>
     </strong>
   </p>
+
+  [![Screen Shot][screenshot]](https://example.com)
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#architecture">Architecture</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 ## Architecture ⚙️
 
@@ -52,12 +28,56 @@ It gives us the possibility of decoupling the different layers of the
 application and encapsulating both the logic and the UI of each module,
 facilitating scalability.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With 🔧
+<div align="center">
+<a href="https://nextjs.org">
+<img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next" width="150" height="80"> 
+</a>
+  <a href="https://www.typescriptlang.org/">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxBazpO7O500MliDRCqCJrs_lomB7Dnta8Q&usqp=CAU" alt="Typescript" width="80" height="80"> 
+</a>
+
+<a href="https://sass-lang.com/">
+<img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass" width="80" height="80">
+</a>
+
+<a href="https://tanstack.com/query/latest">
+<img src="https://axios-http.com/assets/logo.svg" alt="Tanstack Query" width="80" height="80">
+</a>
+
+<a href="https://axios-http.com/">
+<img src="https://img.stackshare.io/service/25599/default_c6db7125f2c663e452ba211df91b2ced3bb7f0ff.png" alt="Tanstack Query" width="80" height="80">
+</a>
+
+<a href="https://jestjs.io/es-ES/">
+<img src="https://cdn.worldvectorlogo.com/logos/jest-2.svg" alt="Jest" width="80" height="80">
+</a>
 
 
-### Built With
+<a href="https://vitest.dev/">
+<img src="https://vitest.dev/logo-shadow.svg" alt="Vitest" width="80" height="80">
+</a>
 
-* [![Next][Next.js]][Next-url]
+<a href="https://testing-library.com/">
+<img src="https://testing-library.com/img/octopus-64x64.png" alt="React Testing Library" width="80" height="80">
+</a>
+
+<a href="https://mswjs.io/">
+<img src="https://mswjs.io/_astro/msw.0b63bcd8.svg" alt="msw" width="80" height="80">
+</a>
+</div>
+<br />
+
+ __Other technologies__:
+
+- **[clsx](https://www.npmjs.com/package/clsx)**
+
+- **[crypto-js](https://www.npmjs.com/package/crypto-js)**
+
+- **[dayjs](https://day.js.org/)**
+
+- **[lodash](https://lodash.com/docs/)**
 
 
 ## Project structure 🗄️
@@ -95,7 +115,7 @@ src
 |
 +-- utils             # shared utility functions
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 **- Features folder**
 
@@ -116,102 +136,7 @@ and not
 
 `import {FeatureComponent} from "@/features/module/components/FeatureComponent`
 
-## Technologies 🔧
 
-- **[Next.js(React):](https://nextjs.org/docs)** is a React-based framework that
-  simplifies web development by offering server-side rendering (SSR) and static
-  site generation (SSG) to enhance performance and SEO. It includes an easy
-  routing system, automatic image optimization, and TypeScript support. Ideal
-  for projects needing optimized SEO, fast loading times, and streamlined
-  full-stack development, Next.js extends React's capabilities, allowing for the
-  creation of more robust and efficient web applications with less effort.
-
-- **[TypeScript](https://www.typescriptlang.org/):** is a superset of JavaScript
-  that adds static typing to the language, helping developers catch errors early
-  in the development process and enforce type consistency across their
-  codebases. It enhances code quality and readability, supports modern
-  JavaScript features, and provides powerful tools for large-scale application
-  development. Ideal for projects that require scalability, maintainability, and
-  developer productivity, TypeScript offers a robust foundation for building
-  complex applications, making it easier to manage and evolve code over time.
-
-- **[Sass:](https://sass-lang.com/documentation/)** is a CSS preprocessor that
-  extends CSS with features like variables, nested rules, and mixins, making
-  stylesheets more maintainable and easier to write. By utilizing Sass, projects
-  can achieve more organized, DRY (Don't Repeat Yourself) code, leading to
-  faster development and easier changes. Its compatibility with all CSS versions
-  ensures seamless integration into any project, enhancing efficiency and design
-  flexibility.
-
-- **[Tanstack Query:](https://tanstack.com/query/latest/docs/framework/react/overview)**
-  is a powerful data fetching and caching library for JavaScript applications,
-  streamlining asynchronous data management with efficient caching, background
-  updates, and stale data handling. By incorporating TanStack Query, projects
-  benefit from reduced boilerplate, improved user experience through optimistic
-  UI updates, and seamless data synchronization. Its intuitive API and automatic
-  refetching mechanisms make it an essential tool for building fast, responsive,
-  and data-driven applications.
-
-- **[Jest:](https://jestjs.io/es-ES/docs/getting-started)** is a delightful
-  JavaScript testing framework with a focus on simplicity and support for large
-  web applications. It enables fast, isolated testing thanks to its
-  zero-configuration approach, offering features like snapshot testing and mock
-  functions. Utilizing Jest in a project ensures reliable code, enhances test
-  automation, and simplifies the testing process, making it ideal for both small
-  and large-scale applications seeking to maintain high-quality standards.
-
-- **[Vitest:](https://vitest.dev/)** is a blazing-fast unit testing framework
-  designed for the modern web, built on top of Vite. It offers instant server
-  start, incredibly fast HMR (Hot Module Replacement), and supports ES modules
-  out of the box. By leveraging Vitest, projects benefit from streamlined
-  testing processes, improved developer experience, and seamless integration
-  with the Vite ecosystem.
-
-- **[@testing-library/react:](https://testing-library.com/docs/react-testing-library/intro/)**
-  is a set of utilities that allow you to test React components in a more
-  user-centric way. By focusing on testing components based on their behavior
-  and appearance to users, it encourages better testing practices and more
-  accessible applications. Utilizing @testing-library/react enhances code
-  confidence and ensures your UI works as expected without relying on internal
-  implementation details.
-
-- **[Msw:](https://mswjs.io/docs/getting-started)** is a library for mocking
-  network requests in browser and Node.js environments, allowing you to test
-  front-end applications without an actual backend. By intercepting requests and
-  returning mock responses, it enables reliable, fast, and easy testing of
-  various scenarios. MSW benefits include improving development speed, enabling
-  offline development, and ensuring consistent testing environments.
-
-- **[axios:](https://axios-http.com/es/docs/intro)** is a promise-based HTTP
-  client for the browser and Node.js, offering an easy-to-use API for making
-  XMLHttpRequests from the browser or HTTP requests from Node.js. It supports
-  interceptors, automatic JSON data transformation, and client-side protection
-  against XSRF. Axios enhances development efficiency with its convenient and
-  powerful features for making HTTP requests and managing responses.
-
-- **[clsx:](https://www.npmjs.com/package/clsx)** is a tiny utility for
-  constructing className strings conditionally, making it simpler to manage and
-  combine CSS classes dynamically in JavaScript projects. It enhances
-  readability and reduces complexity when handling multiple conditional class
-  names, improving developer experience and code maintainability.
-
-- **[crypto-js:](https://www.npmjs.com/package/crypto-js)** is a library
-  providing cryptographic algorithms for secure encryption and decryption of
-  data in JavaScript applications. Utilizing it enhances data security, supports
-  privacy requirements, and enables the safe handling of sensitive information
-  across client and server communications.
-
-- **[dayjs:](https://day.js.org/)** is a minimalist JavaScript library for
-  parsing, validating, manipulating, and formatting dates. Its lightweight
-  nature and easy API offer a simple yet powerful alternative to larger date
-  libraries, improving performance and development efficiency in projects
-  dealing with dates.
-
-- **[lodash:](https://lodash.com/docs/)** is a JavaScript utility library that
-  provides convenient functions for common programming tasks, including
-  manipulating arrays, objects, and strings. It enhances code readability and
-  efficiency by simplifying complex operations, reducing the need for verbose
-  and repetitive code in projects.
 
 ## Installation 💾
 
