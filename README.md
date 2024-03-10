@@ -1,6 +1,6 @@
 # Inditex-Marvel Challenge
 
-**[Live demo](https://inditex-challenge-marvel-bd7c5luw2-bjmendezsena.vercel.app)**
+**[Live demo]((https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/)**
 
 ## Architecture ⚙️
 
@@ -60,11 +60,11 @@ Everything from a feature is exported from the `index.ts` file which behaves as
 the public API of the feature. The elements are imported from other functions
 only using:
 
-`import {FeatureComponent} from "@/features/feature"`
+`import {FeatureComponent} from "@/features/module"`
 
 and not
 
-`import {FeatureComponent} from "@/features/feature/components/FeatureComponent`
+`import {FeatureComponent} from "@/features/module/components/FeatureComponent`
 
 ## Technologies 🔧
 
