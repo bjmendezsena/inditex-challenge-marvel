@@ -1,6 +1,6 @@
 # Inditex-Marvel Challenge
 
-**[Live demo]((https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/)**
+**[Live demo](https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/)**
 
 ## Architecture ⚙️
 
