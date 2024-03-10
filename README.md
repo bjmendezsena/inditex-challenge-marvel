@@ -1,6 +1,11 @@
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  
+  <a href="https://www.inditex.com/itxcomweb/es/home">
+    
+  <img src="https://www.inditex.com/itxcomweb/_next/static/media/logo_big.e3164328.svg" alt="Inditex Logo" width="150" height="80">
+  </a>
+  <a href="https://www.marvel.com/">
     <img src="public/static/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
