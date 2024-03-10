@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/static/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Inditex-Marvel Challenge</h3>
@@ -11,7 +11,9 @@
     Test challenge for inditex based on marvel api.
     <br />
     <br />
-   <a href="https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/">View Demo</a>
+    <strong> 
+      <a href="https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/">View Demo</a>
+    </strong>
   </p>
 </div>
 
