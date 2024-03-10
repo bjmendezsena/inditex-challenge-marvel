@@ -1,6 +1,45 @@
-# Inditex-Marvel Challenge
+<a name="readme-top"></a>
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-**[Live demo](https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/)**
+  <h3 align="center">Inditex-Marvel Challenge</h3>
+
+  <p align="center">
+    Test challenge for inditex based on marvel api.
+    <br />
+    <br />
+   <a href="https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/">View Demo</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#architecture">Architecture</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
 ## Architecture ⚙️
 
@@ -10,6 +49,14 @@ The chosen architecture is
 It gives us the possibility of decoupling the different layers of the
 application and encapsulating both the logic and the UI of each module,
 facilitating scalability.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Built With
+
+* [![Next][Next.js]][Next-url]
+
 
 ## Project structure 🗄️
 
@@ -46,6 +93,7 @@ src
 |
 +-- utils             # shared utility functions
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 **- Features folder**
 
