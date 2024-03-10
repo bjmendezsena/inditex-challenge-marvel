@@ -3,7 +3,7 @@
 
   <a href="https://www.inditex.com/itxcomweb/es/home">
 
-  <img src="https://www.inditex.com/itxcomweb/_next/static/media/logo_big.e3164328.svg" alt="Inditex Logo" width="200" height="80">
+  <img src="https://www.inditex.com/itxcomweb/_next/static/media/logo_big.e3164328.svg" alt="Inditex Logo" width="300" height="80">
   </a>
   <br />
   <a href="https://www.marvel.com/">
