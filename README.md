@@ -187,3 +187,6 @@ pnpm run dev
 ```bash
 docker-compose up -d
 ```
+
+
+[screenshot]: public/static/screenshot.png
