@@ -17,11 +17,11 @@
     <br />
     <br />
     <strong>
-      <a href="https://inditex-challenge-marvel-21lt9i37y-bjmendezsena.vercel.app/">View Demo</a>
+      <a href="https://inditex-challenge-marvel-b3055hcjx-bjmendezsena.vercel.app/">View Demo</a>
     </strong>
   </p>
 
-[![Screen Shot][screenshot]](https://example.com)
+[![Screen Shot][screenshot]](https://inditex-challenge-marvel-b3055hcjx-bjmendezsena.vercel.app/)
 
 </div>
 
@@ -143,12 +143,11 @@ and not
 
 `import {FeatureComponent} from "@/features/module/components/FeatureComponent`
 
-
 ## Error Handling ⚠️
 
-Set up an interceptor for handling errors. We can use it to fire a notification toast to notify users that something went wrong, log out unauthorized users, or send new requests for refreshing tokens.
-
-
+Set up an interceptor for handling errors. We can use it to fire a notification
+toast to notify users that something went wrong, log out unauthorized users, or
+send new requests for refreshing tokens.
 
 ## Installation 💾
 
