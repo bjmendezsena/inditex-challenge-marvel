@@ -97,6 +97,8 @@ src
 |
 +-- config            # all the global configuration, env variables etc. get exported from here and used in the app
 |
++-- constants         # all the global constants.
+|
 +-- features          # feature based modules
     |
     +-- module        # Contains everything related to the module, encapsulating both the UI and the logic of the module itself.
@@ -105,7 +107,9 @@ src
         |
         +-- components    # components scoped to a specific feature
         |
-        +-- types         # typescript types for TS specific feature domain
+        +-- types         # types for TS specific feature domain
+        |
+        +-- hooks         # hooks scoped to a specific feature
         |
         +-- index.ts      # entry point for the feature, it serves as the public API of the given feature and exports everything that should be used outside the
 |
@@ -138,6 +142,13 @@ only using:
 and not
 
 `import {FeatureComponent} from "@/features/module/components/FeatureComponent`
+
+
+## Error Handling ⚠️
+
+Set up an interceptor for handling errors. We can use it to fire a notification toast to notify users that something went wrong, log out unauthorized users, or send new requests for refreshing tokens.
+
+
 
 ## Installation 💾
 

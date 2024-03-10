@@ -28,7 +28,7 @@ interface UseCharacterParams {
   characterId: number;
 }
 
-export function useCharacter({ config, characterId }: UseCharacterParams) {
+export function useGetCharacter({ config, characterId }: UseCharacterParams) {
   return useQuery<ExtractFnReturnType<QueryFnType>>({
     ...config,
     queryKey: queryKeys.getCharacter(characterId),
